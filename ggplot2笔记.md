@@ -14,6 +14,21 @@
 
 
 
+
+<h1 name="title">R语言基本图形</h1>
+<a name="histogram"><h2>条形图：geom_histogram [<sup>目录</sup>] 
+
+1.条形图
+```
+数据集准备：VCD包中Arthritis数据集
+library(vcd)
+counts <- table(Arthritis)
+```
+(1)简单条形图：barplot(counts,main="Simple Bar Plot",xlab="Improvement",ylab="Frequency")             #counts提供数据，main设置图片标题，xlab设置x轴标题，ylab设置y轴标题
+<p align="center"><img src=./picture/ggplot2-position-1.png width=600 /></p>
+
+
+
 <h1 name="title">ggplot2笔记</h1>
 
 <a name="histogram"><h2>直方图：geom_histogram [<sup>目录</sup>](#content)</h2></a>
